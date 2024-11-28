@@ -1,0 +1,15 @@
+DELETE http://127.0.0.1:8000/api/products/
+Content-Type: application/json
+
+{
+    "id": 6
+}
+
+###
+
+DELETE http://127.0.0.1:8000/api/auth/users/
+Content-Type: application/json
+
+{
+    "id": 2
+}
